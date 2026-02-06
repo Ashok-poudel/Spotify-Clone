@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Birsiney Hau Ki - The Elements", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Purna Rai - Manaka kura", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "BHATBHATEY MA - PURPLE Ft.GWALA$ BLITZYTHEVIBE", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Maan Lai Pugne Maya | ARYAN AND THE CLUSTERS ", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Firfirey -Yabesh Thapa", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Ma Haraye | Subodh KC", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Budho Bhaiyo - The Firantee | Nepali Song ", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "AXIX - Muskan", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Purna Rai & Dajubhaiharu - Sparsha Sangeet", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Bakemono Gurung Saino साइनो | Esther Rijan Music", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
